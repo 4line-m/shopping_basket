@@ -13,7 +13,7 @@ public class Item {
 
     public Item(String name, String type, double price, int quantity) {
 
-        this.name =  name;
+        this.name = name;
         this.type = type;
         this.price = price;
         this.quantity = quantity;
