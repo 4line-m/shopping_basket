@@ -21,4 +21,8 @@ public class ShoppingBasket {
     public void addItem(Item item) {
         this.basket.add(item);
     }
+
+    public void removeItem(Item item) {
+        this.basket.remove(item);
+    }
 }

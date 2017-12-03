@@ -33,4 +33,11 @@ public class ShoppingBasketTest {
         assertEquals(1, basket.getBasket().size());
     }
 
+    @Test
+    public void canRemoveItemFromBasket() {
+        basket.addItem(item2);
+        basket.removeItem(item2);
+        assertEquals(0, basket.getBasket().size());
+    }
+
 }
