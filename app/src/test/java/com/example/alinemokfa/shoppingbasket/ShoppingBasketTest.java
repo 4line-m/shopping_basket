@@ -40,4 +40,11 @@ public class ShoppingBasketTest {
         assertEquals(0, basket.getBasket().size());
     }
 
+    @Test
+    public void canEmptyBasket(){
+        basket.addItem(item1);
+        basket.emptyBasket();
+        assertEquals(0, basket.getBasket().size());
+    }
+
 }
